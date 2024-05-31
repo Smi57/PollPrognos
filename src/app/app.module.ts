@@ -4,21 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './component/app.component';
 import { LandingComponent } from './component/landing/landing.component';
-import { PollComponent } from './component/poll/poll.component';
-import { PollListComponent } from './component/poll-list/poll-list.component';
-import { SinglePollComponent } from './component/single-poll/single-poll.component';
-import { Tmp2Component } from './component/tmp2/tmp2.component';
-import { Tmp1Component } from './component/tmp1/tmp1.component';
+import { SurveyComponent } from './component/poll/poll.component';
+import { SurveyListComponent } from './component/poll-list/poll-list.component';
+import { SingleSurveyComponent } from './component/single-poll/single-poll.component';
+import { QuestionComponent } from './component/question/question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    PollComponent,
-    PollListComponent,
-    SinglePollComponent,
-    Tmp2Component,
-    Tmp1Component
+    SurveyComponent,
+    SurveyListComponent,
+    SingleSurveyComponent,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,

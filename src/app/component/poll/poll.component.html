@@ -1,1 +1,11 @@
-<p>poll works!</p>
+<div class="poll-card">
+  <h2>{{ survey.title | uppercase }}</h2>
+  <a routerLink="">Back</a>
+  <img [src]="survey.imgUrl" [alt]="survey.title" width="750" height="500">
+  <p>{{ survey.descr }}</p>
+  <p>
+    <button (click)="onViewSurvey()">{{ survey.labBtn }}</button>
+  </p>
+  <br>
+</div>
+

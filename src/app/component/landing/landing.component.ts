@@ -8,5 +8,10 @@ import { Router } from '@angular/router';
 })
 export class LandingComponent {
 
+  constructor(private router: Router) { }
+
+  onContinue() {
+    this.router.navigateByUrl('surveys');
+  }
 
 }
