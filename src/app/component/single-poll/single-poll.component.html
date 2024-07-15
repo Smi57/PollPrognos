@@ -1,2 +1,9 @@
 <h2>{{ survey.title | uppercase }}</h2>
-<app-question *ngFor="let question of questions" [question]="question"></app-question>
+<h3 *ngFor="let question of questions">
+  <div class="question-card">
+    <h2>{{ question.title | uppercase }}</h2>
+    <a routerLink="/surveys">Back</a>
+    <img [src]="question.imgUrl" [alt]="question.title" width="750" height="500">
+    <br>
+  </div>
+</h3>

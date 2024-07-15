@@ -32,7 +32,7 @@ export class SurveysService {
       title: 'Choix d\'une date pour le futur repas d\'équipe JUIN 2024',
       descr: 'Définir une date pour le lunch d\'équipe de juin 2024',
       imgUrl: 'https://img.luxtimes.lu/public/luxembourg/55lufs-bouneweger-stuff-has-five-set-brunch-menus-but-gets-busy-so-reserve-a-table/alternates/SIXTEEN_NINE_1920/Bouneweger%20Stuff%20has%20five%20set%20brunch%20menus%20but%20gets%20busy%20so%20reserve%20a%20table',
-      labBtn: ''
+      labBtn: 'Lancer le sondage pour le choix du repas'
     }
   ]
 

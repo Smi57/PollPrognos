@@ -8,6 +8,7 @@ import { SurveyComponent } from './component/poll/poll.component';
 import { SurveyListComponent } from './component/poll-list/poll-list.component';
 import { SingleSurveyComponent } from './component/single-poll/single-poll.component';
 import { QuestionComponent } from './component/question/question.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { QuestionComponent } from './component/question/question.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
