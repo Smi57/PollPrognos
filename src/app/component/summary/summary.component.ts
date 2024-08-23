@@ -1,16 +1,16 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Question } from '../../models/poll.model';
 import { ActivatedRoute } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
 import { QuestionsService } from '../../services/question.service';
+import { HttpClient } from '@angular/common/http';
+import { Question } from '../../models/poll.model';
 
 @Component({
-  selector: 'app-question',
-  templateUrl: './question.component.html',
-  styleUrl: './question.component.scss'
+  selector: 'app-summary',
+  templateUrl: './summary.component.html',
+  styleUrl: './summary.component.scss'
 })
 
-export class QuestionComponent implements OnInit {
+export class SummaryComponent implements OnInit {
 
   @Input() question!: Question;
   propositionDatas: any = [];
@@ -19,7 +19,7 @@ export class QuestionComponent implements OnInit {
   constructor(private route: ActivatedRoute,
     private http: HttpClient,
     private questionsService: QuestionsService
-   ) { }
+  ) { }
 
   ngOnInit() {
     this.refreshPropositionDatas();

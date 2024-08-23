@@ -1,2 +1,4 @@
 C:\Users\minstse\source\repos\Formation\001cPrj_PollPrognos\PollPrognos\obj\Debug\PollPrognos.esproj.CoreCompileInputs.cache
 C:\Users\minstse\source\repos\Formation\001cPrj_PollPrognos_Test\PollPrognos\obj\Debug\PollPrognos.esproj.CoreCompileInputs.cache
+C:\Users\minstse\source\repos\Formation\001cPrj_PollPrognos_LastDemo\PollPrognos\obj\Debug\PollPrognos.esproj.CoreCompileInputs.cache
+C:\Users\minstse\Documents\zzzTrash\001cPrj_PollPrognos_LastDemo\PollPrognos\obj\Debug\PollPrognos.esproj.CoreCompileInputs.cache

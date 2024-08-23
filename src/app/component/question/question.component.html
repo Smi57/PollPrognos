@@ -1,6 +1,14 @@
 <div class="question-card">
-  <h2>* {{ question.title | uppercase }}</h2>
+  <h2>{{ question.title | uppercase }}</h2>
   <a routerLink="/surveys">Back</a>
-  <img [src]="question.imgUrl" [alt]="question.title" width="750" height="500">
+  <!--<img [src]="question.imgUrl" [alt]="question.title" width="750" height="500">-->
+  <h3 *ngFor="let propositionData of propositionDatas">
+    <button>+</button>
+    <a> [01] </a>
+    <button>-</button>
+    <a> [01] &nbsp;&nbsp;&nbsp;</a>
+   <span><img [src]="propositionData.Val02" width="20" height="15"></span> 
+   <a>&nbsp;&nbsp;{{&nbsp; propositionData.Val01 | uppercase }}</a>
+  </h3>
   <br>
 </div>

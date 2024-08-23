@@ -6,9 +6,10 @@ import { AppComponent } from './component/app.component';
 import { LandingComponent } from './component/landing/landing.component';
 import { SurveyComponent } from './component/poll/poll.component';
 import { SurveyListComponent } from './component/poll-list/poll-list.component';
-import { SingleSurveyComponent } from './component/single-poll/single-poll.component';
+import { QuestionListComponent } from './component/question-list/question-list.component';
 import { QuestionComponent } from './component/question/question.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SummaryComponent } from './component/summary/summary.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +17,9 @@ import { HttpClientModule } from '@angular/common/http';
     LandingComponent,
     SurveyComponent,
     SurveyListComponent,
-    SingleSurveyComponent,
-    QuestionComponent
+    QuestionListComponent,
+    QuestionComponent,
+    SummaryComponent
   ],
   imports: [
     BrowserModule,

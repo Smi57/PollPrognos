@@ -16,3 +16,9 @@ export class Question {
   title!: string;
   imgUrl!: string;
 }
+
+export class PropositionData {
+  id!: number;
+  val01!: string;
+  val02!: string;
+}

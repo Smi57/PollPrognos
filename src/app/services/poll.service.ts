@@ -15,16 +15,16 @@ export class SurveysService {
     },
     {
       id: 2,
-      title: 'Pronostics des phases de groupe de l\'EURO de foot 2024',
-      descr: 'Pronostiquer les bons résultats des matchs de foot',
-      imgUrl: 'https://i.eurosport.com/2014/09/07/1309616-28185444-1600-900.jpg',
-      labBtn: 'Lancer le sondage des poules de l\'EURO 2024'
+      title: 'Pronostics des huitièmes de finale de la champions league',
+      descr: 'Pronostiquer la bonne cote des matchs de foot',
+      imgUrl: 'https://cdn.unitycms.io/images/DeUurZRaa2jBM3Hr2gVJZb.jpg',
+      labBtn: 'Lancer le sondage des huitièmes de finale de la champions league'
     },
     {
       id: 3,
       title: 'Pronostics des qualifications de l\'EURO de foot 2024',
       descr: 'Pronostiquer le bon classement des qualifications',
-      imgUrl: 'https://www.topmercato.com/wp-content/uploads/2021/10/Eden-Hazard-et-Raphael-Varane-match-France-Belgique-2018.jpg',
+      imgUrl: 'https://i.eurosport.com/2014/09/07/1309616-28185444-1600-900.jpg',
       labBtn: 'Lancer le sondage des qualification de l\'EURO 2024'
     },
     {
@@ -57,7 +57,7 @@ export class SectionsService {
     },
     {
       id: 2,
-      title: 'Pronostics des phases de groupe de l\'EURO de foot 2024'
+      title: 'Pronostics des huitièmes de finale de la champions league'
     },
     {
       id: 3,

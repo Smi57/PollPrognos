@@ -11,7 +11,7 @@ import { Question } from '../models/poll.model';
 export class QuestionsService implements OnInit {
 
   QuestionsVar: any = [];
-  Questions: any = [];
+  Questions!: Question[];
 
   readonly APIUrl = "https://localhost:7147/api/PollPrognosApp/";
 
@@ -36,12 +36,12 @@ export class QuestionsService implements OnInit {
     })
   }
 
-  //getQuestionById(questionId: number): Question {
-  //  const question = this.questions.find(question => question.id === questionId);
-  //  if (!question) {
-  //    throw new Error('section not found!');
-  //  } else {
-  //    return question;
-  //  }
-  //}
+  getQuestionById(questionId: number): Question {
+    const question = this.Questions.find(question => question.id === questionId);
+    if (!question) {
+      throw new Error('section not found!');
+    } else {
+      return question;
+    }
+  }
 }
