@@ -34,5 +34,25 @@ h2 {
 
   button {
     font-size: 14px;
+    width: 190px;
+    /*background-color: initial*/
+  }
+
+  .button-card {
+  }
+
+}
+
+.validated {
+
+  button {
+    background-color: green
+  }
+}
+
+.unvalidated {
+
+  button {
+    background-color: red
   }
 }

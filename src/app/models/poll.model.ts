@@ -22,3 +22,8 @@ export class PropositionData {
   val01!: string;
   val02!: string;
 }
+    
+export class User {
+  id!: number;
+  login!: string;
+}

@@ -10,6 +10,8 @@ import { QuestionListComponent } from './component/question-list/question-list.c
 import { QuestionComponent } from './component/question/question.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SummaryComponent } from './component/summary/summary.component';
+import { LoginComponent } from './component/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { SummaryComponent } from './component/summary/summary.component';
     SurveyListComponent,
     QuestionListComponent,
     QuestionComponent,
-    SummaryComponent
+    SummaryComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

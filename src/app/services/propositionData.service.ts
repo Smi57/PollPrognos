@@ -19,12 +19,13 @@ export class PropositionDatasService implements OnInit {
 
   ngOnInit() {
     console.log("test03")
-    //this.getAllQuestions();
+    //this.getAllQuestionsUser();
   }
 
-  getAllQuestions$(pQuestionInit: number) {//: any {
+  getAllQuestionsUser$(pQuestionInit: number, pLogin: string) {//: any {
     //const pollId = +this.route.snapshot.params['id'];
-    this.http.get(this.APIUrl + 'GetPropositionData?id=' + pQuestionInit).subscribe(async data => {
+    this.http.get(this.APIUrl + 'GetPropositionDataUser?id=' + pQuestionInit
+                              + ',?@login=' + pLogin).subscribe(async data => {
       this.PropostionDatasVar= data;
       this.PropostionDatas = this.PropostionDatasVar;
       //this.Question = this.Questions[0];

@@ -13,7 +13,7 @@ export class QuestionListComponent implements OnInit {
 
   survey!: Survey;
   section!: Section;
-  questions: any = [] ;
+  questions: any = [];
 
   readonly APIUrl = "https://localhost:7147/api/PollPrognosApp/";
   constructor(private surveysService: SurveysService,
